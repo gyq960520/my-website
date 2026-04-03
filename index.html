@@ -472,12 +472,10 @@ function switchTab(tab,el){
   document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
   el.classList.add('active');
   document.getElementById('tab-overview').style.display=tab==='overview'?'block':'none';
+  document.getElementById('tab-chart').classList.toggle('show',tab==='chart');
   document.getElementById('tab-chart').style.display=tab==='chart'?'block':'none';
+  document.getElementById('tab-channels').classList.toggle('show',tab==='channels');
   document.getElementById('tab-channels').style.display=tab==='channels'?'block':'none';
-  if(tab!=='overview'){
-    document.getElementById('tab-chart').classList.toggle('show',tab==='chart');
-    document.getElementById('tab-channels').classList.toggle('show',tab==='channels');
-  }
   if(tab==='chart'&&!window._chartsInit){window._chartsInit=true;initCharts();}
 }
 </script>
