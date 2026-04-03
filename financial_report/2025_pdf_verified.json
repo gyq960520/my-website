@@ -1,0 +1,324 @@
+{
+  "_meta": {
+    "description": "2025年饮料行业财报数据 — 严格基于PDF文件提取，未能从PDF确认的数据标注null",
+    "extracted_date": "2026-04-02",
+    "principle": "只提取准确数据，没有数据就文字描述，不猜测，不估算"
+  },
+
+  "companies": [
+
+    {
+      "name": "农夫山泉",
+      "ticker": "HK:09633",
+      "origin": "国内",
+      "source_doc": "农夫山泉2025.pdf",
+      "doc_type": "年报",
+      "currency": "RMB",
+      "unit": "千元",
+      "scope": "集团整体",
+      "financials": {
+        "revenue_thousand": 52552910,
+        "revenue_yi": 525.53,
+        "revenue_yoy_pct": 22.5,
+        "net_profit_thousand": 15868000,
+        "net_profit_yi": 158.68,
+        "net_profit_yoy_pct": 30.9,
+        "eps_rmb": 1.411,
+        "dividend_per_share_rmb": 0.99
+      },
+      "product_segments": null,
+      "_note": "产品线拆分数据（茶饮料215.96亿等）来自此前分析，非本次PDF直接提取，待核实"
+    },
+
+    {
+      "name": "东鹏饮料",
+      "ticker": "A:605499 / HK:06927",
+      "origin": "国内",
+      "source_doc": "东鹏特饮2025.pdf",
+      "doc_type": "年报",
+      "currency": "RMB",
+      "unit": "年报摘要直接列示亿元",
+      "scope": "集团整体",
+      "financials": {
+        "revenue_yi": 208.75,
+        "revenue_yoy_pct": 31.80,
+        "net_profit_yi": 44.15,
+        "net_profit_yoy_pct": 32.72,
+        "eps_rmb": null
+      },
+      "product_segments": {
+        "东鹏补水啦（电解质饮料）": {
+          "revenue_yi": 32.74,
+          "yoy_pct": null,
+          "_note": "PDF披露收入32.74亿，增速未直接列示"
+        },
+        "东鹏特饮（能量饮料）": {
+          "revenue_yi": null,
+          "yoy_pct": null,
+          "_note": "年报摘要未单独列示具体金额"
+        },
+        "东鹏大咖及其他": {
+          "revenue_yi": null,
+          "yoy_pct": null,
+          "_note": "年报摘要未单独列示具体金额"
+        }
+      },
+      "_note": "年报确认A+H两地上市（2025年2月），约13,000名员工，1+6产品矩阵"
+    },
+
+    {
+      "name": "康师傅（集团）",
+      "ticker": "HK:00322",
+      "origin": "国内",
+      "source_doc": "康师傅2025.pdf",
+      "doc_type": "年报",
+      "currency": "RMB",
+      "unit": "千元",
+      "scope": "集团整体（含饮料+方便面+其他）",
+      "financials": {
+        "revenue_thousand": 79068022,
+        "revenue_yi": 790.68,
+        "revenue_yoy_pct": -2.0,
+        "gross_margin_pct": 34.8,
+        "ebitda_thousand": 10606522,
+        "net_profit_total_thousand": 5175852,
+        "net_profit_attributable_thousand": 4500698,
+        "net_profit_attributable_yi": 45.01,
+        "net_profit_yoy_pct": 20.5,
+        "eps_rmb_basic": 0.7986,
+        "net_cash_yi": 194.86
+      },
+      "segments": {
+        "饮料业务": {
+          "revenue_thousand": 50098397,
+          "revenue_yi": 500.98,
+          "revenue_yoy_pct": -2.9,
+          "revenue_2024_thousand": 51615930,
+          "segment_profit_after_tax_thousand": 2949178,
+          "segment_profit_yi": 29.49
+        },
+        "方便面业务": {
+          "revenue_thousand": 28278066,
+          "revenue_yi": 282.78,
+          "revenue_yoy_pct": -0.1,
+          "revenue_2024_thousand": 28306049
+        }
+      },
+      "product_sub_segments": null,
+      "_note": "饮料子品类（即饮茶/包装水/果汁等）具体营收年报未分别列示。饮料分部利润29.49亿为PDF分部税后利润"
+    },
+
+    {
+      "name": "统一企业中国（集团）",
+      "ticker": "HK:00220",
+      "origin": "国内",
+      "source_doc": "统一2025.pdf",
+      "doc_type": "年报",
+      "currency": "RMB",
+      "unit": "千元",
+      "scope": "集团整体（含饮品+食品）",
+      "financials": {
+        "revenue_thousand": 31714309,
+        "revenue_yi": 317.14,
+        "revenue_yoy_pct": 4.6,
+        "gross_margin_pct": 33.2,
+        "operating_profit_yi": 38.61,
+        "operating_profit_yoy_pct": 6.6,
+        "net_profit_thousand": 2050234,
+        "net_profit_yi": 20.50,
+        "net_profit_yoy_pct": 10.9,
+        "eps_rmb_cents": 47.47,
+        "dividend_per_share": null
+      },
+      "segments": {
+        "饮品业务": {
+          "revenue_yi": 194.71,
+          "revenue_yoy_pct": 1.2,
+          "segment_profit_yi": null,
+          "_note": "分部利润年报未单独列示"
+        },
+        "食品业务（方便面等）": {
+          "revenue_yi": 88.02,
+          "revenue_yoy_pct": 2.6,
+          "segment_profit_yi": null
+        }
+      },
+      "product_sub_segments": null,
+      "_note": "饮品子品类（茶饮料/果汁等）具体营收年报未分别列示"
+    },
+
+    {
+      "name": "太古可口可乐（Swire Coca-Cola）",
+      "ticker": "HK:00019（太古股份有限公司）",
+      "origin": "外资",
+      "source_doc": "可口可乐（太古）.pdf",
+      "doc_type": "年报（太古股份集团年报）",
+      "currency": "HKD",
+      "unit": "百万港元",
+      "scope": "太古股份饮料业务分部（Swire Coca-Cola全球，非纯中国内地）",
+      "financials": {
+        "beverages_segment_revenue_2025_hkdm": 25001,
+        "beverages_segment_revenue_2024_hkdm": 25234,
+        "revenue_yoy_pct_hkd": -0.9,
+        "revenue_2025_rmb_approx_yi": 232.5,
+        "_exchange_rate_note": "按HKD/RMB约0.93换算，为估算值",
+        "other_segments": {
+          "properties_hkdm": 2483,
+          "aviation_hkdm": 2455,
+          "healthcare_hkdm": 8157,
+          "trading_industrial_hkdm": 3867
+        },
+        "group_total_revenue_hkdm": 41976
+      },
+      "product_segments": {
+        "魔爪（Monster Energy）": {
+          "revenue_yi": null,
+          "yoy_pct": 49.0,
+          "_note": "增速49%来自年报描述，具体金额未单独列示"
+        },
+        "茶饮料": {
+          "revenue_yi": null,
+          "yoy_pct": -24.0,
+          "_note": "增速-24%来自年报描述，具体金额未单独列示"
+        },
+        "汽水（可口可乐/雪碧等）": {
+          "revenue_yi": null,
+          "yoy_pct": null,
+          "_note": "年报未单独披露"
+        }
+      },
+      "_critical_note": "25,001M HKD为Swire Coca-Cola全球收入（含美国西部/澳洲/东南亚等），非纯中国内地口径。中国内地具体收入在此年报中未单独列示"
+    },
+
+    {
+      "name": "中国食品有限公司（中粮旗下）",
+      "ticker": "HK（www.chinafoodsltd.com）",
+      "origin": "国内",
+      "source_doc": "中国粮食25年.pdf",
+      "doc_type": "年报/业绩公告",
+      "currency": "未确认（HKD可能性大，因HK上市）",
+      "unit": "千元（推测）",
+      "scope": "中国食品有限公司集团整体（含多元食品业务）",
+      "financials": {
+        "revenue_2025": 22070162,
+        "revenue_2025_note": "如为HKD千元：约22,070M HKD ≈ 205亿人民币；货币单位因编码乱码未完全确认",
+        "revenue_2024": 21491811,
+        "revenue_yoy_pct": 2.7,
+        "gross_margin_2025_pct": 37.1,
+        "gross_margin_2024_pct": 37.8,
+        "ebit_2025": 1978925,
+        "ebitda_2025": 2872400,
+        "net_profit_2025": 1428047,
+        "eps_2025": 30.82,
+        "eps_2024": 30.76,
+        "dps_2025": 0.154,
+        "dps_2024": 0.153
+      },
+      "product_segments_5_categories": {
+        "category_1": {"revenue": 16684628, "share_pct": 75.6, "name": "未知（中文乱码）"},
+        "category_2": {"revenue": 3028084,  "share_pct": 13.7, "name": "未知（中文乱码）"},
+        "category_3": {"revenue": 928815,   "share_pct": 4.2,  "name": "未知（中文乱码）"},
+        "category_4": {"revenue": 320082,   "share_pct": 1.4,  "name": "未知（中文乱码）"},
+        "category_5": {"revenue": 1108553,  "share_pct": 5.0,  "name": "未知（中文乱码）"}
+      },
+      "associates": {
+        "Coca-Cola Bottlers Manufacturing Holdings Limited": {"stake_pct": 21.0},
+        "CBPC Limited": {"stake_pct": 33.3}
+      },
+      "_critical_note": "此公司通过联营公司权益法持有可口可乐装瓶股权（21%+33.3%），自身营收来自食品业务，非可口可乐装瓶直接收入。5个产品品类名称因PDF中文编码乱码无法读取。与健力宝无关联（PDF全文未提及）"
+    },
+
+    {
+      "name": "达能集团（Danone）",
+      "ticker": "EPA:BN",
+      "origin": "外资",
+      "source_doc": "达能脉动2025.pdf",
+      "doc_type": "集团合并财务报表（IFRS，欧盟）",
+      "currency": "EUR",
+      "unit": "百万欧元",
+      "scope": "达能集团全球合并（含EDP/专业营养/饮用水三大品类）",
+      "financials": {
+        "group_total_revenue_2025_eurm": 27376,
+        "group_total_revenue_2024_eurm": 27283,
+        "group_yoy_pct": 0.3
+      },
+      "geographic_segments": {
+        "Europe": {
+          "revenue_2025_eurm": null,
+          "_note": "含法国2,300M EUR"
+        },
+        "China_NorthAsia_Oceania": {
+          "revenue_2025_eurm": 3694,
+          "revenue_2024_eurm": 3953,
+          "yoy_pct": -6.6,
+          "recurring_operating_income_2025_eurm": 1086,
+          "recurring_operating_income_2024_eurm": 1154,
+          "_note": "含中国、日本、韩国、澳洲、新西兰等多国，非纯中国；含专业营养/EDP/水三大品类，非仅脉动"
+        },
+        "Latin_America": {
+          "revenue_2025_eurm": 3029,
+          "revenue_2024_eurm": 2792,
+          "yoy_pct": 8.5
+        },
+        "Asia_MiddleEast_Africa": {
+          "revenue_2025_eurm": 4506,
+          "revenue_2024_eurm": 4444,
+          "yoy_pct": 1.4
+        }
+      },
+      "mizone_china_specific": {
+        "revenue_yi": null,
+        "yoy_pct": null,
+        "_note": "PDF为达能集团全球合并财务报表，脉动(Mizone)中国单品数据在此报表中未单独列示。原index.html中39.53亿/+7.0%无法从此PDF核实"
+      }
+    },
+
+    {
+      "name": "华润饮料",
+      "ticker": "HK:02460",
+      "origin": "国内",
+      "source_doc": "华润饮料业绩公告.pdf",
+      "doc_type": "业绩公告（Annual Results Announcement）",
+      "currency": "RMB",
+      "unit": "千元",
+      "scope": "集团整体",
+      "financials": {
+        "revenue_2025_thousand": 11002111,
+        "revenue_2025_yi": 110.02,
+        "revenue_2024_thousand": 13521246,
+        "revenue_2024_yi": 135.21,
+        "revenue_yoy_pct": -18.6,
+        "net_profit_2025_thousand": 985341,
+        "net_profit_2025_yi": 9.85,
+        "net_profit_2024_thousand": 1636694,
+        "net_profit_2024_yi": 16.37,
+        "net_profit_yoy_pct": -39.8,
+        "eps_2025_rmb": 0.41,
+        "eps_2024_rmb": 0.79,
+        "dps_2025_rmb": 0.088,
+        "dps_2024_rmb": 0.307
+      },
+      "product_segments": null,
+      "_note": "产品线（怡宝包装水/非水饮料）具体拆分业绩公告未单独列示"
+    }
+
+  ],
+
+  "not_in_pdf": [
+    {
+      "name": "养元饮品",
+      "ticker": "A:603156",
+      "reason": "无PDF提供，数据来自三季报推算"
+    },
+    {
+      "name": "承德露露",
+      "ticker": "A:000848",
+      "reason": "无PDF提供，数据来自三季报推算"
+    },
+    {
+      "name": "香飘飘",
+      "ticker": "A:603711",
+      "reason": "无PDF提供，数据来自三季报推算"
+    }
+  ]
+}

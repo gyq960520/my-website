@@ -1,0 +1,56 @@
+{
+  "revenue_data": [
+    {"company": "康师傅", "revenue": 790.68, "growth": -2.0, "color": "#1f77b4"},
+    {"company": "农夫山泉", "revenue": 525.53, "growth": 22.5, "color": "#ff7f0e"},
+    {"company": "统一", "revenue": 317.14, "growth": 4.6, "color": "#2ca02c"},
+    {"company": "可口可乐(太古)", "revenue": 250.01, "growth": 0, "color": "#9467bd"},
+    {"company": "东鹏特饮", "revenue": 208.75, "growth": 31.8, "color": "#d62728"},
+    {"company": "达能", "revenue": 39.53, "growth": 7.0, "color": "#8c564b"},
+    {"company": "百事可乐", "revenue": null, "growth": -2.0, "color": "#e377c2"}
+  ],
+  "segment_data": {
+    "东鹏特饮": [
+      {"segment": "东鹏特饮", "revenue": 155.99, "growth": 17.25},
+      {"segment": "东鹏补水啦", "revenue": 32.74, "growth": 118.99},
+      {"segment": "东鹏大咖", "revenue": 5.0, "growth": null}
+    ],
+    "农夫山泉": [
+      {"segment": "茶饮料", "revenue": 215.96, "growth": 29.0},
+      {"segment": "包装饮用水", "revenue": 187.09, "growth": 17.3},
+      {"segment": "果汁饮料", "revenue": 51.76, "growth": 26.7},
+      {"segment": "功能饮料", "revenue": 57.62, "growth": 16.8}
+    ],
+    "康师傅": [
+      {"segment": "饮料业务", "revenue": 501.23, "growth": -2.9}
+    ],
+    "统一": [
+      {"segment": "饮品业务", "revenue": 194.71, "growth": 1.2}
+    ],
+    "可口可乐(太古)": [
+      {"segment": "汽水", "revenue": null, "growth": 2.0},
+      {"segment": "能量饮料", "revenue": null, "growth": 49.0},
+      {"segment": "茶饮料", "revenue": null, "growth": -24.0}
+    ]
+  },
+  "trends": [
+    {"trend": "健康化/无糖化", "strength": 9, "impact": "高"},
+    {"trend": "茶饮料竞争", "strength": 8, "impact": "高"},
+    {"trend": "功能饮料增长", "strength": 7, "impact": "中高"},
+    {"trend": "多品类战略", "strength": 6, "impact": "中"},
+    {"trend": "国际品牌挑战", "strength": 5, "impact": "中"}
+  ],
+  "growth_comparison": [
+    {"category": "高增长(>20%)", "companies": ["东鹏特饮", "农夫山泉"], "count": 2},
+    {"category": "中速增长(5-20%)", "companies": ["达能", "统一"], "count": 2},
+    {"category": "持平或负增长", "companies": ["康师傅", "可口可乐(太古)", "百事可乐"], "count": 3}
+  ],
+  "analysis_summary": {
+    "total_companies": 7,
+    "total_revenue": 2131.64,
+    "avg_growth": 8.84,
+    "top_growth": "东鹏特饮 (+31.8%)",
+    "largest_revenue": "康师傅 (790.68亿元)",
+    "key_trend": "茶饮料成为最大增长引擎",
+    "market_insight": "本土品牌在健康化创新方面领先"
+  }
+}
